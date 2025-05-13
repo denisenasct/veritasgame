@@ -15,7 +15,7 @@ body, html {
 }
 
 .matrix-overlay::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -24,8 +24,9 @@ body, html {
   background-image: url('img/matrix-numbers.gif');
   background-size: cover;
   opacity: 0.2;
-  z-index: 0;
+  z-index: 1;
 }
+
 
 .intro-text {
   position: absolute;
