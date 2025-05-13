@@ -103,3 +103,9 @@ button:hover {
   margin-bottom: 1rem;
   box-shadow: 0 0 10px #00ff00;
 }
+
+.avatar-dupla {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
