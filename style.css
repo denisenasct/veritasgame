@@ -45,13 +45,10 @@ body, html {
   position: relative;
   z-index: 2;
   padding: 2rem;
-  max-width: 600px;
+  max-width: 800px;
   margin-left: 3%;
   margin-top: 5%;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-left: 3px solid #00ff00;
-  border-radius: 10px;
-  box-shadow: 0 0 20px #00ff00;
+  color: #00ff00;
 }
 
 /* ======================== */
@@ -69,6 +66,7 @@ body, html {
   gap: 1rem;
   margin-bottom: 1rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* ======================== */
@@ -132,7 +130,7 @@ button:hover {
 }
 
 /* ======================== */
-/* Links e Destaques        */
+/* Links                    */
 /* ======================== */
 a {
   color: white;
@@ -180,4 +178,3 @@ a:hover {
     font-size: 1rem;
   }
 }
-
