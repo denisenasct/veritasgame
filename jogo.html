@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Veritas.Logic - Capítulo 1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="matrix-bg">
+    <div class="matrix-overlay"></div>
+    <div class="intro-text">
+      <h2>Capítulo 1: Aurora</h2>
+      <p>Você acorda numa sala escura. A IA Veritas te envia uma mensagem criptografada:</p>
+      <p><em>“Se a notícia é falsa, então o caos foi intencional.”</em></p>
+      <p>Você relembra a premissa:</p>
+      <p><strong>P → Q</strong> <br> (Se a notícia é falsa, então o caos aconteceu)</p>
+      <p>Mas a cidade está em ruínas, e você sabe que o caos aconteceu. O que conclui?</p>
+
+      <button onclick="escolha1()">1. Então a notícia era falsa (Modus Ponens)</button>
+      <button onclick="escolha2()">2. Então a notícia era verdadeira (Negação do Consequente)</button>
+      <div id="resultado"></div>
+    </div>
+  </div>
+  <script>
+    function escolha1() {
+      document.getElementById("resultado").innerHTML = `
+        <p><strong>Aurora:</strong> A lógica não falha. Sigo em frente.</p>
+        <p><a href="capitulo2.html">Avançar para Capítulo 2</a></p>
+      `;
+    }
+
+    function escolha2() {
+      document.getElementById("resultado").innerHTML = `
+        <p><strong>Veritas:</strong> Erro lógico detectado. Se P → Q e Q é verdadeiro, não é possível inferir P.</p>
+        <p><strong>Aurora:</strong> Preciso rever a lógica. Começo novamente.</p>
+        <p><a href="index.html">Reiniciar</a></p>
+      `;
+    }
+  </script>
+</body>
+</html>
