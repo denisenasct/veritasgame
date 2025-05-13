@@ -1,0 +1,98 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', monospace;
+  background-color: black;
+  color: #00ff00;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.matrix-bg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.matrix-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('img/matrix-numbers.gif');
+  background-size: cover;
+  opacity: 0.2;
+  z-index: 1;
+}
+
+
+.intro-text {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  z-index: 1;
+}
+
+.typing {
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: .15em solid #00ff00;
+  animation: typing 2s steps(40, end), blink .75s step-end infinite;
+}
+
+.delay1 { animation-delay: 2s; }
+.delay2 { animation-delay: 4s; }
+.delay3 { animation-delay: 6s; }
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink {
+  from, to { border-color: transparent }
+  50% { border-color: #00ff00; }
+}
+
+button {
+  margin-top: 2rem;
+  background: transparent;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+/* Animação nos botões */
+button {
+  margin-top: 2rem;
+  background: transparent;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #00ff00;
+  color: black;
+  transform: scale(1.05);
+}
+
+/* Fade suave para textos */
+.intro-text p {
+  animation: fadein 1s ease forwards;
+  opacity: 0;
+}
+
+@keyframes fadein {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.intro-text h2 {
+  animation: fadein 0.8s ease-out forwards;
+}
