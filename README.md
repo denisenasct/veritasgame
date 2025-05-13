@@ -1,4 +1,4 @@
-# veritasgame
+
 
 # 🎮 Veritas.Logic: A Simulação
 
