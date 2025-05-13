@@ -109,3 +109,12 @@ button:hover {
   gap: 1rem;
   margin-bottom: 1rem;
 }
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #00ff00;
+}
