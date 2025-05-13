@@ -34,9 +34,11 @@ body, html {
   background-image: url('img/matrix-numbers.gif');
   background-size: cover;
   background-position: center;
-  opacity: 0.2;
+  opacity: 0.4; /* Aumente a opacidade (0.4 ou até 0.5 se quiser mais forte) */
+  filter: contrast(140%) brightness(120%); /* Realça os números */
   z-index: 0;
 }
+
 
 .matrix-overlay {
   position: absolute;
