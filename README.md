@@ -1,5 +1,4 @@
 
-
 # 🎮 Veritas.Logic: A Simulação
 
 **Veritas.Logic** é um jogo interativo narrativo ambientado em um mundo pós-apocalíptico onde apenas a lógica sobreviveu. Criado para a disciplina de **Lógica para Programação**, o projeto é uma resposta crítica à superficialidade dos quizzes convencionais e propõe uma jornada fundamentada na **lógica proposicional formal**, com impacto narrativo e estético inspirado em *Matrix*, *Jessica Jones* e *The Last of Us*.
