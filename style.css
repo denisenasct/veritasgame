@@ -96,3 +96,10 @@ button:hover {
 .intro-text h2 {
   animation: fadein 0.8s ease-out forwards;
 }
+
+.avatar {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px #00ff00;
+}
