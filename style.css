@@ -27,7 +27,6 @@ body, html {
   z-index: 1;
 }
 
-
 .intro-text {
   position: absolute;
   top: 20%;
@@ -55,16 +54,6 @@ body, html {
   50% { border-color: #00ff00; }
 }
 
-button {
-  margin-top: 2rem;
-  background: transparent;
-  color: #00ff00;
-  border: 1px solid #00ff00;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 1.2rem;
-}
-/* Animação nos botões */
 button {
   margin-top: 2rem;
   background: transparent;
@@ -117,4 +106,49 @@ a {
 
 a:hover {
   color: #00ff00;
+}
+
+/* ===== Responsividade para mobile ===== */
+@media screen and (max-width: 768px) {
+  .intro-text {
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+  }
+
+  .intro-text h2, .intro-text p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .typing {
+    font-size: 1rem;
+    white-space: normal;
+  }
+
+  .avatar-dupla {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .avatar {
+    width: 80px;
+  }
+
+  button {
+    width: 90%;
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  a {
+    font-size: 0.9rem;
+  }
+
+  body, html {
+    overflow-x: hidden;
+    height: auto;
+  }
 }
