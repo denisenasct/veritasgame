@@ -3,6 +3,19 @@
 
 **Veritas.Logic** é um jogo interativo narrativo ambientado em um mundo pós-apocalíptico onde apenas a lógica sobreviveu. Criado para a disciplina de **Lógica para Programação**, o projeto é uma resposta crítica à superficialidade dos quizzes convencionais e propõe uma jornada fundamentada na **lógica proposicional formal**, com impacto narrativo e estético inspirado em *Matrix*, *Jessica Jones* e *The Last of Us*.
 
+## 🧠 Área do Conhecimento: Educação Inclusiva
+
+O jogo **Veritas.Logic** foi desenvolvido dentro da grande área **Educação Inclusiva**, explorando a lógica proposicional de forma narrativa e interativa, com o objetivo de capacitar jogadores a reconhecer e combater a desinformação (fake news).
+
+Através de situações cotidianas simuladas, o jogador exercita o raciocínio lógico, valida proposições, identifica contradições e toma decisões com base em operadores lógicos como negação, conjunção, disjunção e implicação.
+
+A proposta busca promover o **pensamento crítico como ferramenta de inclusão social e cidadania digital**, tornando acessível a lógica proposicional para públicos diversos, com diferentes níveis de escolaridade e acesso ao conhecimento.
+
+O jogo propõe uma experiência inclusiva, estimulando habilidades cognitivas em ambientes lúdicos e instigantes, dentro de um universo visual inspirado em *Matrix* e narrativas interativas.
+
+> A verdade é um direito de todos. E a lógica é o caminho.
+
+
 ---
 
 ## 🧠 Sobre o Projeto
