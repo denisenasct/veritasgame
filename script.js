@@ -1,4 +1,8 @@
 function mostrarCapitulo(num) {
+  const audio = document.getElementById("musicaFundo");
+  if (audio && audio.paused) {
+    audio.play();
+  }
   const capitulo = document.getElementById("capitulo");
 
   if (num === 1) {
